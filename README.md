@@ -17,9 +17,13 @@ Assemblers and disassemblers used:
 * [Online x86 / x64 Assembler and Disassembler](https://defuse.ca/online-x86-assembler.htm#disassembly)
 
 Other resources that might be useful in the future:
-
+* [Sandpile.org](http://www.sandpile.org/) - The world's leading source for technical x86 processor information
 * [x86 Disassembly](https://en.wikibooks.org/wiki/X86_Disassembly) at Wikibooks
 * [X86-64 Instruction Encoding](http://wiki.osdev.org/X86-64_Instruction_Encoding)
+* [X86 Opcode and Instruction Reference](http://ref.x86asm.net/)
+* [x86 Instruction Set Reference](http://x86.renejeschke.de/)
+* [x86 Instruction Encoding](https://events.linuxfoundation.org/sites/events/files/slides/bpetkov-x86-hacks.pdf) (SUSE)
+* [x86 Registers](http://www.eecg.toronto.edu/~amza/www.mindsec.com/files/x86regs.html)
 
 ## Code sample
 

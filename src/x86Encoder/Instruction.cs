@@ -49,7 +49,7 @@ namespace x86Encoder
         {
             var bytes = new List<byte>();
             bytes.AddRange(OpCode.GetBytes());
-            if (OpCode.Type.HasModRegRM)
+            if (OpCode.Type.HasModRegRM && ModRegRM != null)
             {
                 bytes.AddRange(ModRegRM.Encode());
             }

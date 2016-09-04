@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace x86Encoder
 {
-    public class OpCode
+    public struct OpCode
     {
         byte[] bytes;
         private OpCode(OpType opType, OpCodeDirection direction = OpCodeDirection.RegToRM, bool is32bit = true, bool isImmediate = false)
@@ -22,12 +22,6 @@ namespace x86Encoder
             {
                 bytes = Modify(bytes, (byte)Direction == (byte)OpCodeDirection.RMToReg ? true : false, is32bit);
             }
-        }
-
-        public string Name
-        {
-            get;
-            private set;
         }
 
         public int Size
@@ -69,13 +63,12 @@ namespace x86Encoder
 
         public override string ToString()
         {
-            return string.Format(Name);
+            return string.Format(Type.Name);
         }
 
-        public static OpCode Create(OpType opType, OpCodeDirection direction = OpCodeDirection.RegToRM, bool is32bit = true, bool isImmediate = false)
+        public static OpCode Create(OpType opType, OpCodeDirection direction = OpCodeDirection.RegToRM, bool is32bit = false, bool isImmediate = false)
         {
-            var opCode = new OpCode(opType, direction, is32bit, isImmediate);
-            return opCode;
+            return new OpCode(opType, direction, is32bit, isImmediate);
         }
 
         /// <summary>
