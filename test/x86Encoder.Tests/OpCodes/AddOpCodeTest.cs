@@ -99,7 +99,7 @@ namespace x86Encoder.Tests.OpCodes
             Assert.Equal(expectedOpByte, opByte);
         }
 
-        [Fact(DisplayName = nameof(Add_AL_Ib), Skip = "Not working?")]
+        [Fact(DisplayName = nameof(Add_AL_Ib), Skip = "Is this wrong?")]
         public void Add_AL_Ib()
         {
             byte expectedOpByte = 0x04;
@@ -111,7 +111,7 @@ namespace x86Encoder.Tests.OpCodes
             Assert.Equal(expectedOpByte, opByte);
         }
 
-        [Fact(DisplayName = nameof(Add_rAX_Iz), Skip = "Not working?")]
+        [Fact(DisplayName = nameof(Add_rAX_Iz), Skip = "Is this wrong?")]
         public void Add_rAX_Iz()
         {
             byte expectedOpByte = 0x05;
