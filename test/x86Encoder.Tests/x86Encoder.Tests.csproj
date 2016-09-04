@@ -45,6 +45,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OpCodes\MovOpCodeTest.cs" />
     <Compile Include="OpCodes\AddOpCodeTest.cs" />
     <Compile Include="InstructionGeneratorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
