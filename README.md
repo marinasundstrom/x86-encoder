@@ -12,6 +12,7 @@ These are some of the resources that was used as a technical reference:
 
 Assemblers and disassemblers used:
 
+* [Compiler Explorer - C++](https://gcc.godbolt.org/)
 * [disassembler.io](https://www.onlinedisassembler.com/)
 * [Online x86 / x64 Assembler and Disassembler](https://defuse.ca/online-x86-assembler.htm#disassembly)
 
