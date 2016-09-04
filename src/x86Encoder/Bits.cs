@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Runtime.CompilerServices;
 
-namespace Test
+namespace x86Encoder
 {
     public static class Bits
     {

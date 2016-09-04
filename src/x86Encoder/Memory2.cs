@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test
+namespace x86Encoder
 {
     public static class Memory2
     {

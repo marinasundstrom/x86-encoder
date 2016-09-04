@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Test
+namespace x86Encoder
 {
     public class Displacement
     {

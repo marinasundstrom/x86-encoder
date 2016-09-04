@@ -1,4 +1,4 @@
-﻿namespace Test
+﻿namespace x86Encoder
 {
     public static class Prefix
     {

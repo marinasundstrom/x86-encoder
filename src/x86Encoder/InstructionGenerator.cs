@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test
+namespace x86Encoder
 {
     public class InstructionGenerator
     {
@@ -87,7 +87,7 @@ namespace Test
         public byte[] GetBytes()
         {
             var bufferCopy = new byte[Offset];
-            Array.Copy(buffer, bufferCopy, Offset);
+            Array.Copy(buffer, bufferCopy, (int)Offset);
             PrepareLabels(bufferCopy);
             return bufferCopy;
         }
@@ -113,7 +113,7 @@ namespace Test
                     byte[] bytes = null;
                     
                     bytes = BitConverter.GetBytes(relAddress + 5);
-                    Array.Copy(bytes, 0, buffer, reference, bytes.Length);
+                    Array.Copy(bytes, 0, buffer, (int)reference, bytes.Length);
                 }
             }
         }
@@ -145,7 +145,7 @@ namespace Test
                 Array.Copy(oldBuffer, buffer, oldBuffer.Length);
             }
       
-            Array.Copy(data, 0, buffer, offset, data.Length);
+            Array.Copy(data, 0, buffer, (int)offset, data.Length);
 
             offset += (uint)dataCount;
         }
