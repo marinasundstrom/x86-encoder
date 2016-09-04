@@ -3,6 +3,24 @@ Explores the encoding of x86 machine instructions.
 
 The code is structured as a compiler-backend API.
 
+## Resources
+
+These are some of the resources that was used as a technical reference:
+
+* [Encoding Real x86 Instructions](http://www.c-jump.com/CIS77/CPU/x86/lecture.html)
+* [Intel x86 Assembler Instruction Set Opcode Table](http://sparksandflames.com/files/x86InstructionChart.html)
+
+Assemblers and disassemblers used:
+
+* [disassembler.io](https://www.onlinedisassembler.com/)
+* [Online x86 / x64 Assembler and Disassembler](https://defuse.ca/online-x86-assembler.htm#disassembly)
+
+Other resources that might be useful in the future:
+
+* [x86 Disassembly](https://en.wikibooks.org/wiki/X86_Disassembly) at Wikibooks
+* [X86-64 Instruction Encoding](http://wiki.osdev.org/X86-64_Instruction_Encoding)
+
+## Code sample
 
 ```csharp
 var gen = new InstructionGenerator();
