@@ -9,6 +9,7 @@ These are some of the resources that was used as a technical reference:
 
 * [Encoding Real x86 Instructions](http://www.c-jump.com/CIS77/CPU/x86/lecture.html)
 * [Intel x86 Assembler Instruction Set Opcode Table](http://sparksandflames.com/files/x86InstructionChart.html)
+* [http://www.cs.virginia.edu/~evans/cs216/guides/x86.html](x86 Assembly Guide)
 
 Assemblers and disassemblers used:
 
@@ -17,6 +18,7 @@ Assemblers and disassemblers used:
 * [Online x86 / x64 Assembler and Disassembler](https://defuse.ca/online-x86-assembler.htm#disassembly)
 
 Other resources that might be useful in the future:
+
 * [Sandpile.org](http://www.sandpile.org/) - The world's leading source for technical x86 processor information
 * [x86 Disassembly](https://en.wikibooks.org/wiki/X86_Disassembly) at Wikibooks
 * [X86-64 Instruction Encoding](http://wiki.osdev.org/X86-64_Instruction_Encoding)
