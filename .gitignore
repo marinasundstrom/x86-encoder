@@ -1,40 +1,37 @@
-#Autosave files
-*~
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
 
-#build
-[Oo]bj/
-[Bb]in/
-packages/
-TestResults/
+# Visual Studio Code
+.vscode
 
-# globs
-Makefile.in
-*.DS_Store
-*.sln.cache
+# Rider
+.idea
+
+# User-specific files
 *.suo
-*.cache
-*.pidb
-*.userprefs
-*.usertasks
-config.log
-config.make
-config.status
-aclocal.m4
-install-sh
-autom4te.cache/
 *.user
-*.tar.gz
-tarballs/
-test-results/
-Thumbs.db
+*.userosscache
+*.sln.docstates
 
-#Mac bundle stuff
-*.dmg
-*.app
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
 
-#resharper
-*_Resharper.*
-*.Resharper
-
-#dotCover
-*.dotCover
+# Visual Studio 2015
+.vs/

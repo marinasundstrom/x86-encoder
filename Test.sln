@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.25618.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30014.187
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D6D9DB1-487E-4588-B9A7-7B6F4EED9B45}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "x86Encoder.Tests", "test\x86Encoder.Tests\x86Encoder.Tests.csproj", "{1ACA4E52-6D9A-4384-99E5-13600A6BC31D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "x86Encoder", "src\x86Encoder\x86Encoder.csproj", "{52429889-375C-40D9-9EC5-91E4F568AFFB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "x86Encoder.App", "src\x86Encoder.App\x86Encoder.App.csproj", "{5529BC61-4E8B-4191-AD67-EEE65EBB5040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,18 +49,6 @@ Global
 		{52429889-375C-40D9-9EC5-91E4F568AFFB}.Release|x64.Build.0 = Release|Any CPU
 		{52429889-375C-40D9-9EC5-91E4F568AFFB}.Release|x86.ActiveCfg = Release|Any CPU
 		{52429889-375C-40D9-9EC5-91E4F568AFFB}.Release|x86.Build.0 = Release|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Debug|x64.Build.0 = Debug|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Debug|x86.Build.0 = Debug|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Release|x64.ActiveCfg = Release|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Release|x64.Build.0 = Release|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Release|x86.ActiveCfg = Release|Any CPU
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +56,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1ACA4E52-6D9A-4384-99E5-13600A6BC31D} = {5B72F8D3-6819-485E-8675-16531745CCD3}
 		{52429889-375C-40D9-9EC5-91E4F568AFFB} = {0654BBEC-1F5D-465F-9F41-1F8D5DBD8CAF}
-		{5529BC61-4E8B-4191-AD67-EEE65EBB5040} = {0654BBEC-1F5D-465F-9F41-1F8D5DBD8CAF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A95304-8B82-46D5-8539-B72250872E66}
 	EndGlobalSection
 EndGlobal
